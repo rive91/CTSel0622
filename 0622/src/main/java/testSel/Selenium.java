@@ -10,7 +10,7 @@ public class Selenium {
 		String exePath = "./driver/chromedriver";//.exe debe en Windows
 		System.setProperty("webdriver.chrome.driver", exePath);
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.google.com/");
+		driver.get("https://www.outlook.com/");
 
 	}
 
